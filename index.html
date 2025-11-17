@@ -52,10 +52,10 @@
                     </div>
                     
                     <!-- Judul Tengah (Diposisikan absolut) -->
-                    <!-- w-1/2 dan text-base di mobile agar tidak tumpang tindih -->
-                    <!-- w-auto dan text-xl di desktop -->
-                    <div class="absolute left-1/2 -translate-x-1/2 w-1/2 md:w-auto text-center px-2">
-                        <span class="font-extrabold text-base md:text-xl text-gray-900 tracking-tight">GEDUNG SENI DAN BUDAYA JAYENGRANA NARMADA</span>
+                    <!-- Lebar disesuaikan untuk gambar -->
+                    <div class="absolute left-1/2 -translate-x-1/2 w-3/4 md:w-1/2 lg:w-1/3 text-center px-2">
+                        <!-- Mengganti teks dengan gambar -->
+                        <img src="asset/Screenshot 2025-11-17 231430.png" alt="Judul Kebudayaan Lombok Barat" class="w-full h-auto inline-block">
                     </div>
 
                     <!-- Grup Kanan: Logo Kanan (Hanya Desktop) dan Tombol Mobile -->
@@ -95,6 +95,8 @@
                         <a href="#halaman-agenda" class="page-link font-semibold text-gray-700 hover:text-red-600 transition duration-150">Agenda</a>
                         <a href="#halaman-galeri" class="page-link font-semibold text-gray-700 hover:text-red-600 transition duration-150">Galeri</a>
                         <a href="#halaman-kontak" class="page-link font-semibold text-gray-700 hover:text-red-600 transition duration-150">Kontak</a>
+                        <!-- [PERUBAHAN] Mengubah href dari #halaman-kontak menjadi #halaman-pengaduan -->
+                        <a href="#halaman-pengaduan" class="page-link font-semibold text-gray-700 hover:text-red-600 transition duration-150">Pengaduan</a>
                     </nav>
                 </div>
 
@@ -109,6 +111,8 @@
             <a href="#halaman-agenda" class="page-link block px-6 py-3 text-base font-semibold text-gray-700 hover:bg-gray-100">Agenda</a>
             <a href="#halaman-galeri" class="page-link block px-6 py-3 text-base font-semibold text-gray-700 hover:bg-gray-100">Galeri</a>
             <a href="#halaman-kontak" class="page-link block px-6 py-3 text-base font-semibold text-gray-700 hover:bg-gray-100">Kontak</a>
+            <!-- [PERUBAHAN] Menambahkan link Pengaduan di menu mobile -->
+            <a href="#halaman-pengaduan" class="page-link block px-6 py-3 text-base font-semibold text-gray-700 hover:bg-gray-100">Pengaduan</a>
         </div>
     </header>
 
@@ -120,8 +124,8 @@
         <div class="flex-shrink-0 w-full h-full snap-center relative bg-cover bg-center" style="background-image: url('asset/gedung.jpg');">
             <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                 <div class="text-center text-white p-6 max-w-2xl">
-                    <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">Selamat Datang di Gedung Seni dan Budaya Jayengrana Narmada</h1>
-                    <p class="text-xl md:text-2xl font-light mb-8"> menjadi pusat pengembangan, pelestarian, dan promosi seni budaya lokal di Kabupaten Lombok Barat, serta menjadi daya tarik wisata budaya yang dapat meningkatkan perekonomian masyarakat sekitar</p>
+                    <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">Selamat Datang Di Website Jelajah Atraksi Seni dan Budaya Lombok Barat</h1>
+                    <p class="text-xl md:text-2xl font-light mb-8"> Atraksi Seni dan Budaya Lokal Sebagai Bagian dari Pengembangan, Pelestarian, dan Promosi Seni Budaya Kabupaten Lombok Barat guna menjadi daya tarik wisata budaya yang dapat meningkatkan perekonomian masyarakat sekitar</p>
                     <a href="#" class="bg-red-700 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-red-800 transition duration-300">
                         Jelajahi Sekarang
                     </a>
@@ -139,7 +143,7 @@
                     class="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg border-4 border-red-700">
                 <div class="text-center md:text-left">
                     <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">Misi ke III Bupati dan Wakil Bupati Lombok Barat</h2>
-                    <p class="text-lg text-gray-700 mb-4">"Pentingnya pelestarian budaya melalui berbagai kegiatan kebudayaan dan promosi/festival kebudayaan yang bertujuan agar budaya lokal dapat terus diwariskan kepada generasi berikutnya, sesuai dengan Misi III :"Mewujudkan ketahanan keluarga, sosial dan budaya berbasis kearifan lokal".
+                    <p class="text-lg text-gray-700 mb-4">"Pentingnya pelestarian budaya melalui berbagai kegiatan kebudayaan dan promosi/festival kebudayaan yang bertujuan agar budaya lokal dapat terus diwariskan kepada generasi berikutnya, sesuai dengan Misi III :"Mewujudkan ketahanan keluarga, sosial dan budaya berbasis kearifan lokal".
 
 "</p>
                     <p class="text-xl font-bold text-red-700"> H. Lalu Ahmad Zaini (LAZ) & Hj. Ummi Nurul Adha</p>
@@ -183,7 +187,7 @@
                         <p class="text-sm text-red-600 font-semibold mb-1">27 September 2025</p>
                         <h3 class="text-xl font-bold mb-2">Menghadiri Parade Budaya yang dibuka langsung oleh Wakil Ketua Komisi X DPR RI, Bapak H. Lalu Hadrian Irfani, ST., M.Si. (FPKB).</h3>
                         <p class="text-gray-600 mb-4 text-base">Acara berlangsung di Gedung Seni dan Budaya Narmada, Lombok Barat dengan mengusung tema:
-                                                                “Revitalisasi Budaya Sasak sebagai Modal Sosial Generasi Mendatang.”</p>
+                                                 “Revitalisasi Budaya Sasak sebagai Modal Sosial Generasi Mendatang.”</p>
                         <a href="#halaman-agenda-2" class="page-link font-semibold text-red-700 hover:text-red-900 transition duration-150">Baca Selengkapnya &rarr;</a>
                     </div>
                 </div>
@@ -216,8 +220,8 @@
                 <!-- Kategori 2 --><a href="#halaman-warisan-tak-benda" class="page-link group">
                     <div class="bg-white rounded-lg shadow-lg p-6 text-center flex flex-col items-center justify-center h-48 hover:shadow-xl transition-shadow duration-300">
                          <svg class="h-16 w-16 text-red-600 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 00-2-2H5z" />
-                        </svg>
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 00-2-2H5z" />
+                         </svg>
                         <h3 class="text-lg font-bold group-hover:text-red-700">Warisan budaya Tak Benda</h3>
                     </div>
                 </a>
@@ -244,13 +248,13 @@
             <h2 class="text-3xl font-extrabold text-center text-gray-900 mb-8">Galeri Budaya</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="rounded-lg shadow-md overflow-hidden h-48 md:h-64">
-                    <img src="asset/galeri1.jpg" alt="Galeri 1" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/999999/ffffff?text=Galeri+1'; this.onerror=null;">
+                    <img src="asset/kegiatan1.jpeg" alt="Galeri 1" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/999999/ffffff?text=Galeri+1'; this.onerror=null;">
                 </div>
                  <div class="rounded-lg shadow-md overflow-hidden h-48 md:h-64 md:col-span-2">
-                    <img src="asset/galeri2.jpg" alt="Galeri 2" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/800x400/aaaaaa/ffffff?text=Galeri+2'; this.onerror=null;">
+                    <img src="asset/kegiatan2.jpeg" alt="Galeri 2" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/800x400/aaaaaa/ffffff?text=Galeri+2'; this.onerror=null;">
                 </div>
                  <div class="rounded-lg shadow-md overflow-hidden h-48 md:h-64">
-                    <img src="asset/galeri3.jpg" alt="Galeri 3" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/bbbbbb/ffffff?text=Galeri+3'; this.onerror=null;">
+                    <img src="asset/kegiatan3.jpeg" alt="Galeri 3" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/bbbbbb/ffffff?text=Galeri+3'; this.onerror=null;">
                 </div>
                  <div class="rounded-lg shadow-md overflow-hidden h-48 md:h-64 md:col-span-2">
                     <img src="asset/galeri4.jpg" alt="Galeri 4" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/800x400/cccccc/ffffff?text=Galeri+4'; this.onerror=null;">
@@ -277,15 +281,15 @@
                 <h1 class="text-4xl font-extrabold text-gray-900 mb-6">Dipusatkan di Gedung Budaya Narmada, Dikbud Lombok Barat Gelar Festival Tunas Bahasa Ibu Tingkat Kabupaten</h1>
                 <div class="prose prose-lg max-w-none text-gray-700">
                     <p class="mb-4">Dinas Pendidikan dan Kebudayaan (Dikbud) Lombok Barat (Lobar) menggelar Festival Tunas Bahasa Ibu (FTBI).
-                                    Kegiatan ini merupakan Program Nasional sebagai upaya revitalisasi bahasa daerah di seluruh Indonesia yang dicanangkan oleh Badan Pengembangan dan Pembinaan Bahasa, Kementerian Pendidikan Dasar dan Menengah.
+                                 Kegiatan ini merupakan Program Nasional sebagai upaya revitalisasi bahasa daerah di seluruh Indonesia yang dicanangkan oleh Badan Pengembangan dan Pembinaan Bahasa, Kementerian Pendidikan Dasar dan Menengah.
 
-                                    Kabid Pembinaan Kebudayaan pada Dikbud Lobar Hirman Zulkarnaen menerangkan, tujuan diadakan FTBI ini adalah melestarikan bahasa daerah di seluruh Indonesia yang sangat kaya dan beragam. Mencegah kepunahan bahasa, serta menguatkan identitas bangsa melalui penggunaan bahasa ibu dalam pendidikan dan kehidupan sehari-hari.
+                                 Kabid Pembinaan Kebudayaan pada Dikbud Lobar Hirman Zulkarnaen menerangkan, tujuan diadakan FTBI ini adalah melestarikan bahasa daerah di seluruh Indonesia yang sangat kaya dan beragam. Mencegah kepunahan bahasa, serta menguatkan identitas bangsa melalui penggunaan bahasa ibu dalam pendidikan dan kehidupan sehari-hari.
 
-                                    Di tingkat Kabupaten khususnya Lombok Barat, pagelaran FTBI dipusatkan kegiatannya di Gedung Seni dan Budaya Jayengrana Narmada, mulai dari tanggal 17-18 September 2025 yang diikuti oleh 34 siswa jenjang Sekolah Dasar, dan 43 siswa jenjang Sekolah Menengah Pertama, dengan 7 (tujuh) mata lomba.
-                                    Tujuh mata lomba itu meliputi pidato bahasa Sasak, puisi bahasa Sasak, bewaran, nembang, menulis aksara Sasak, bebanyolan.
+                                 Di tingkat Kabupaten khususnya Lombok Barat, pagelaran FTBI dipusatkan kegiatannya di Gedung Seni dan Budaya Jayengrana Narmada, mulai dari tanggal 17-18 September 2025 yang diikuti oleh 34 siswa jenjang Sekolah Dasar, dan 43 siswa jenjang Sekolah Menengah Pertama, dengan 7 (tujuh) mata lomba.
+                                 Tujuh mata lomba itu meliputi pidato bahasa Sasak, puisi bahasa Sasak, bewaran, nembang, menulis aksara Sasak, bebanyolan.
 
-                                    “Kegiatan ini diharapkan sebagai sarana menumbuhkembangkan, memperkenalkan dan menanamkan rasa cinta pada bahasa ibu khususnya bahasa Sasak serta menjaga kelestariannya,”terang Hirman, Kamis, 18 September 2025.
-                                    Dengan diadakan di gedung Budaya Narmada ini tentunya bisa meramalkan atau menghidupkan gedung budaya ini. Sehingga Dikbud pun akan mengadakan berbagai kegiatan</p>
+                                 “Kegiatan ini diharapkan sebagai sarana menumbuhkembangkan, memperkenalkan dan menanamkan rasa cinta pada bahasa ibu khususnya bahasa Sasak serta menjaga kelestariannya,”terang Hirman, Kamis, 18 September 2025.
+                                 Dengan diadakan di gedung Budaya Narmada ini tentunya bisa meramalkan atau menghidupkan gedung budaya ini. Sehingga Dikbud pun akan mengadakan berbagai kegiatan</p>
                     
                 </div>
                 <div class="mt-8 pt-6 border-t border-gray-200">
@@ -306,10 +310,10 @@
                 <h1 class="text-4xl font-extrabold text-gray-900 mb-6">Menghadiri Parade Budaya yang dibuka langsung oleh Wakil Ketua Komisi X DPR RI, Bapak H. Lalu Hadrian Irfani, ST., M.Si. (FPKB).</h1>
                 <div class="prose prose-lg max-w-none text-gray-700">
                     <p class="mb-4">Menghadiri Parade Budaya yang dibuka langsung oleh Wakil Ketua Komisi X DPR RI, Bapak H. Lalu Hadrian Irfani, ST., M.Si. (FPKB).
-                                    Acara berlangsung di Gedung Seni dan Budaya Narmada, Lombok Barat dengan mengusung tema:
-                                    “Revitalisasi Budaya Sasak sebagai Modal Sosial Generasi Mendatang.”
-                                    Kegiatan ini turut dihadiri oleh jajaran Dinas Kebudayaan Lombok Barat, Camat, Kapolsek, Danramil Kecamatan Narmada, tokoh agama, tokoh adat, serta kalangan Gen Z.
-                                    Tujuan parade budaya ini adalah untuk merawat dan melestarikan warisan budaya leluhur, yang keberadaannya kini mulai tergerus dan terkontaminasi oleh budaya luar yang tidak sejalan dengan kultur kita..</p>
+                                 Acara berlangsung di Gedung Seni dan Budaya Narmada, Lombok Barat dengan mengusung tema:
+                                 “Revitalisasi Budaya Sasak sebagai Modal Sosial Generasi Mendatang.”
+                                 Kegiatan ini turut dihadiri oleh jajaran Dinas Kebudayaan Lombok Barat, Camat, Kapolsek, Danramil Kecamatan Narmada, tokoh agama, tokoh adat, serta kalangan Gen Z.
+                                 Tujuan parade budaya ini adalah untuk merawat dan melestarikan warisan budaya leluhur, yang keberadaannya kini mulai tergerus dan terkontaminasi oleh budaya luar yang tidak sejalan dengan kultur kita..</p>
                     
                 </div>
                 <div class="mt-8 pt-6 border-t border-gray-200">
@@ -330,10 +334,10 @@
                 <h1 class="text-4xl font-extrabold text-gray-900 mb-6">PENGAMANAN ACARA GSMS DI GEDUNG SENI BUDAYA NARMADA KAB. LOBAR</h1>
                 <div class="prose prose-lg max-w-none text-gray-700">
                     <p class="mb-4">Hari rabu, 2 oktober 2024 adalah merupakan puncak acara digelarnya kegiatan Gebyar Gerakan Seniman Masuk Sekolah (GSMS) yang telah berlangsung beberapa hari di Gedung seni dan Budaya "jayengrane" Narmada Kabupaten Lombok Barat.
-                                    Acara tersebut dihadiri oleh Pj. SEKDA Lobar, Kepala DIKBUD Lobar, beberapa kepala OPD Lingkup PEMDA Lobar, Direktur Pengembangan dan Pemanfaatan Kebudayaan bersama tim GSMS dari Kementerian DIKBUD dan RISTEK RI, perwakilan dari seluruh sekolah yang ada di Kabupaten Lombok Barat, serta tamu dari instansi, BUMD  terkait, dan undangan lainnya.
-                                    Gebyar GSMS kali ini bertemakan Begawe karye sebagai penguat identitas bangsa.
-                                    KASAT POLPP Lobar diwakili oleh Sekretaris SATPOLPP Lobar turut hadir pula sebagai undangan, dan Anggota SATPOLPP Lobar yang bertugas adalah anggota dari regu I (satu) dan staff bidang sekretariat sebanyak 10 orang dan 1 orang anggota PTI dipimpin oleh perwira Kasie PAMWAL bersama dengan aparat dari TNI dan POLRI guna menjaga keamanan, ketertiban dan fasilitas umum, agar tamu dan undangan dari luar daerah yang datang, merasakan ketenangan dan kenyamanan selama mengikuti jalannya acara tersebut.
-                                    Kegiatan pengamanan acara tersebut berlangsung dari pukul 07.00 s/d 13.00 WITA..</p>
+                                 Acara tersebut dihadiri oleh Pj. SEKDA Lobar, Kepala DIKBUD Lobar, beberapa kepala OPD Lingkup PEMDA Lobar, Direktur Pengembangan dan Pemanfaatan Kebudayaan bersama tim GSMS dari Kementerian DIKBUD dan RISTEK RI, perwakilan dari seluruh sekolah yang ada di Kabupaten Lombok Barat, serta tamu dari instansi, BUMD  terkait, dan undangan lainnya.
+                                 Gebyar GSMS kali ini bertemakan Begawe karye sebagai penguat identitas bangsa.
+                                 KASAT POLPP Lobar diwakili oleh Sekretaris SATPOLPP Lobar turut hadir pula sebagai undangan, dan Anggota SATPOLPP Lobar yang bertugas adalah anggota dari regu I (satu) dan staff bidang sekretariat sebanyak 10 orang dan 1 orang anggota PTI dipimpin oleh perwira Kasie PAMWAL bersama dengan aparat dari TNI dan POLRI guna menjaga keamanan, ketertiban dan fasilitas umum, agar tamu dan undangan dari luar daerah yang datang, merasakan ketenangan dan kenyamanan selama mengikuti jalannya acara tersebut.
+                                 Kegiatan pengamanan acara tersebut berlangsung dari pukul 07.00 s/d 13.00 WITA..</p>
                     
                 <div class="mt-8 pt-6 border-t border-gray-200">
                     <a href="#konten-utama" class="page-link font-semibold text-red-700 hover:text-red-900 transition duration-150">&larr; Kembali ke Beranda</a>
@@ -373,8 +377,8 @@
                     <!-- Kategori 2 --><a href="#halaman-warisan-tak-benda" class="page-link group">
                         <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center flex flex-col items-center justify-center h-48 hover:shadow-xl transition-shadow duration-300">
                              <svg class="h-16 w-16 text-red-600 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 00-2-2H5z" />
-                            </svg>
+                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 00-2-2H5z" />
+                             </svg>
                             <h3 class="text-lg font-bold group-hover:text-red-700 text-gray-900">Warisan budaya Tak Benda</h3>
                         </div>
                     </a>
@@ -416,7 +420,7 @@
                 <div class="prose prose-lg max-w-none text-gray-700">
                     <p class="mb-4">Ini adalah halaman untuk Cagar Budaya. Anda bisa menambahkan teks dan deskripsi lengkap di sini. Contohnya adalah Taman Narmada.</p>
                     <p>Taman Narmada
-                        Taman Narmada yang sekarang ini adalah hasil pembangunan dan serangkaian perbaikan/pemugaran yang berlangsung dari waktu ke waktu. Sewaktu para petugas dari Direktorat Perlindungan dan Pembinaan Peninggalan Sejarah dan Purbakala bersama dengan para petugas Kantor Wilayah Depdikbud Nusa Tenggara Barat meneliti dan mengumpulkan data sebagai langkah awal pemugaran, mereka berpendapat bahwa pemugaran secara menyeluruh tidak mungkin dilakukan. Banyak bagian yang telah rusak terutama tebing-tebing kolam, taman, pagar maupun bangunan. Pada tahun 1980 sampai 1988 rekonstruksi Taman Narmada dapat diselesaikan. </p>
+                         Taman Narmada yang sekarang ini adalah hasil pembangunan dan serangkaian perbaikan/pemugaran yang berlangsung dari waktu ke waktu. Sewaktu para petugas dari Direktorat Perlindungan dan Pembinaan Peninggalan Sejarah dan Purbakala bersama dengan para petugas Kantor Wilayah Depdikbud Nusa Tenggara Barat meneliti dan mengumpulkan data sebagai langkah awal pemugaran, mereka berpendapat bahwa pemugaran secara menyeluruh tidak mungkin dilakukan. Banyak bagian yang telah rusak terutama tebing-tebing kolam, taman, pagar maupun bangunan. Pada tahun 1980 sampai 1988 rekonstruksi Taman Narmada dapat diselesaikan. </p>
                     <p>Setelah direkonstruksi oleh pemerintah melalui Ditjen Kebudayaan, Direktorat Perlindungan dan pembinaan Peninggalan Sejarah dan Purbakala, Departemen Pendidikan dan Kebudayaan, Taman Narmada dijadikan sebagai kompleks bangunan cagar budaya dengan daftar induk inventarisasi peninggalan sejarah dan purbapakala pusat nomor 1839. Dengan demikian, sesuai dengan peraturan yang berlaku kelestarian Taman Narmada dilindungi oleh pemerintah.</p>
                 </div>
                 <div class="mt-8 pt-6 border-t border-gray-200">
@@ -437,6 +441,33 @@
                 <div class="prose prose-lg max-w-none text-gray-700">
                     <p class="mb-4">Perang Topat adalah tradisi tahunan di Pura Lingsar, Lombok, Nusa Tenggara Barat, yang menjadi simbol perdamaian dan keharmonisan antara umat Muslim dan Hindu. Sejarahnya berawal dari konflik pembangunan pura yang berakhir dengan kesepakatan untuk tidak lagi menggunakan kekerasan fisik, melainkan "perang" simbolis dengan saling melempar ketupat. </p>
                     <p>Perang topat adalah sebuah acara adat yang diadakan di Pura Lingsar, Lombok, Nusa Tenggara Barat, Indonesia. Perang ini merupakan simbol perdamaian antara umat Muslim dan Hindu di Lombok. Acara ini dilakukan pada sore hari, setiap bulan purnama ke tujuh dalam penanggalan Suku Bali. Sore hari yang merupakan puncak acara yang dilakukan setelah salat ashar atau dalam bahasa Sasak “rarak kembang waru” (gugur bunga waru). Tanda itu dipakai oleh orang tua dulu untuk mengetahui waktu salat Ashar. Ribuan umat Hindu dan Muslim memenuhi Pura Lingsar, dua komunitas umat beda kepercayaan ini menggelar prosesi upacara Puja Wali, sebagai ungkapan atas puji syukur limpahan berkah dari sang pencipta. Dilaksanakan sekali dalam setahun sebagai simbol keharmonisan dalam kehidupan beragama</p>
+                </div>
+                <div class="mt-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Video Terkait</h2>
+                
+                <!-- [PERUBAHAN] Mengganti iframe YouTube dengan tag <video> HTML5 -->
+                <div class="relative w-full overflow-hidden rounded-lg shadow-md bg-black">
+                    <!-- 
+                        CATATAN: 
+                        1. Pastikan Anda memiliki file video di folder 'asset/'.
+                        2. Ganti 'video-gedung-budaya.mp4' dengan nama file video Anda.
+                        3. 'controls' = menampilkan tombol play/pause.
+                        4. 'autoplay' = memutar otomatis (hanya berfungsi jika 'muted').
+                        5. 'muted' = dimatikan suaranya (wajib untuk autoplay).
+                        6. 'loop' = mengulang video.
+                    -->
+                    <video 
+                        id="video-pengaduan-local"
+                        class="w-full h-full"
+                        src="asset/LAPOR! - Untuk Pembangunan dan Pelayanan Publik yang Lebih Baik.mp4" 
+                        controls 
+                        autoplay 
+                        muted 
+                        loop
+                        playsinline
+                    >
+                        Browser Anda tidak mendukung tag video.
+                    </video>
                 </div>
                 <div class="mt-8 pt-6 border-t border-gray-200">
                     <a href="#halaman-warisan" class="page-link font-semibold text-red-700 hover:text-red-900 transition duration-150">&larr; Kembali ke Warisan Budaya</a>
@@ -509,13 +540,13 @@
             </div>
             <!-- Grid galeri yang lebih besar --><div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div class="rounded-lg shadow-md overflow-hidden h-64">
-                    <img src="asset/galeri1.jpg" alt="Galeri 1" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/999999/ffffff?text=Galeri+1'; this.onerror=null;">
+                    <img src="asset/kegiatan1.jpeg" alt="Galeri 1" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/999999/ffffff?text=Galeri+1'; this.onerror=null;">
                 </div>
                  <div class="rounded-lg shadow-md overflow-hidden h-64">
-                    <img src="asset/galeri2.jpg" alt="Galeri 2" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/aaaaaa/ffffff?text=Galeri+2'; this.onerror=null;">
+                    <img src="asset/kegiatan3.jpeg" alt="Galeri 2" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/aaaaaa/ffffff?text=Galeri+2'; this.onerror=null;">
                 </div>
                  <div class="rounded-lg shadow-md overflow-hidden h-64">
-                    <img src="asset/galeri3.jpg" alt="Galeri 3" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/bbbbbb/ffffff?text=Galeri+3'; this.onerror=null;">
+                    <img src="asset/kegiatan2.jpeg" alt="Galeri 3" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/bbbbbb/ffffff?text=Galeri+3'; this.onerror=null;">
                 </div>
                  <div class="rounded-lg shadow-md overflow-hidden h-64">
                     <img src="asset/galeri4.jpg" alt="Galeri 4" class="w-full h-full object-cover transition-transform duration-300 hover:scale-110" onerror="this.src='https://placehold.co/600x400/cccccc/ffffff?text=Galeri+4'; this.onerror=null;">
@@ -569,14 +600,128 @@
         </div>
     </main>
 
+    <!-- ===== [HALAMAN BARU] Halaman Pengaduan ===== -->
+    <main id="halaman-pengaduan" class="hidden max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden p-8 md:p-12">
+            <h1 class="text-4xl font-extrabold text-gray-900 mb-6">Layanan Pengaduan</h1>
+            <div class="prose prose-lg max-w-none text-gray-700">
+                <p class="mb-4">Silakan sampaikan pengaduan, kritik, atau saran Anda melalui formulir di bawah ini. Kami akan dengan hati menindaklanjutinya.</p>
+            </div>
+
+            <!-- Formulir Pengaduan -->
+            <!-- Catatan: Formulir ini belum berfungsi untuk mengirim email. Diperlukan backend (sisi server) untuk memproses data. -->
+            <form action="#" method="POST" class="mt-8 space-y-6">
+                <!-- Nama Lengkap -->
+                <div>
+                    <label for="nama-pengadu" class="block text-sm font-medium text-gray-700">Nama Lengkap</label>
+                    <input type="text" name="nama-pengadu" id="nama-pengadu" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="Nama Anda">
+                </div>
+
+                <!-- Email & Telepon (Side-by-side) -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="email-pengadu" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" name="email-pengadu" id="email-pengadu" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="anda@email.com">
+                    </div>
+                    <div>
+                        <label for="telepon-pengadu" class="block text-sm font-medium text-gray-700">Nomor Telepon (Opsional)</label>
+                        <input type="tel" name="telepon-pengadu" id="telepon-pengadu" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="0812...">
+                    </div>
+                </div>
+
+                <!-- Judul Pengaduan -->
+                <div>
+                    <label for="judul-pengaduan" class="block text-sm font-medium text-gray-700">Judul Pengaduan</label>
+                    <input type="text" name="judul-pengaduan" id="judul-pengaduan" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="Contoh: Fasilitas Gedung, Kritik Acara, dll.">
+                </div>
+
+                <!-- Isi Pengaduan -->
+                <div>
+                    <label for="isi-pengaduan" class="block text-sm font-medium text-gray-700">Isi Pengaduan</labe>
+                    <textarea id="isi-pengaduan" name="isi-pengaduan" rows="5" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500 sm:text-sm" placeholder="Jelaskan pengaduan, kritik, atau saran Anda secara rinci..."></textarea>
+                </div>
+
+                <!-- [TAMBAHAN BARU] Tombol Unduh Formulir -->
+                <div>
+                    <label for="unduh-formulir" class="block text-sm font-medium text-gray-700">1. Unduh Formulir Pengaduan </label>
+                    <p class="mt-1 text-xs text-gray-500">Anda juga dapat mengunduh formulir PDF, mengisinya, dan mengunggahnya di bawah.</p>
+                    <a 
+                        href="asset/pengaduanlobar.pdf" 
+                        download="Formulir_Pengaduan_Gedung_Budaya.pdf"
+                        class="mt-2 inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition duration-150"
+                    >
+                        <svg class-="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        Unduh Formulir (PDF)
+                    </a>
+                </div>
+                
+                <!-- [PERUBAHAN] Lampiran (Label diubah menjadi 'Unggah') -->
+                <div>
+                    <label for="lampiran" class="block text-sm font-medium text-gray-700">2. Unggah Lampiran (Data Pendukung)</label>
+                    <input type="file" name="lampiran" id="lampiran" class="mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-red-50 file:text-red-700 hover:file:bg-red-100 cursor-pointer">
+                    <p class="mt-1 text-xs text-gray-500">Unggah formulir yang sudah diisi atau bukti pendukung. (Maks: 5MB; JPG, PNG, PDF)</p>
+                </div>
+
+                <!-- Tombol Kirim -->
+                <div>
+                    <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition duration-300">
+                        Kirim Pengaduan
+                    </button>
+                </div>
+            </form>
+            <!-- Akhir Formulir -->
+
+            <!-- [TAMBAHAN BARU] Link Video -->
+            <div class="mt-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Video Terkait</h2>
+                
+                <!-- [PERUBAHAN] Mengganti iframe YouTube dengan tag <video> HTML5 -->
+                <div class="relative w-full overflow-hidden rounded-lg shadow-md bg-black">
+                    <!-- 
+                        CATATAN: 
+                        1. Pastikan Anda memiliki file video di folder 'asset/'.
+                        2. Ganti 'video-gedung-budaya.mp4' dengan nama file video Anda.
+                        3. 'controls' = menampilkan tombol play/pause.
+                        4. 'autoplay' = memutar otomatis (hanya berfungsi jika 'muted').
+                        5. 'muted' = dimatikan suaranya (wajib untuk autoplay).
+                        6. 'loop' = mengulang video.
+                    -->
+                    <video 
+                        id="video-pengaduan-local"
+                        class="w-full h-full"
+                        src="asset/LAPOR! - Untuk Pembangunan dan Pelayanan Publik yang Lebih Baik.mp4" 
+                        controls 
+                        autoplay 
+                        muted 
+                        loop
+                        playsinline
+                    >
+                        Browser Anda tidak mendukung tag video.
+                    </video>
+                </div>
+                <!-- Menambahkan catatan bahwa nama file perlu diganti -->
+                <p class="mt-2 text-sm text-gray-600"></p>
+            </div>
+            <!-- [AKHIR TAMBAHAN BARU] -->
+
+            <div class="mt-8 pt-6 border-t border-gray-200">
+                <a href="#konten-utama" class="page-link font-semibold text-red-700 hover:text-red-900 transition duration-150">&larr; Kembali ke Beranda</a>
+            </div>
+        </div>
+    </main>
+    <!-- ============================================= -->
+
+
     <!-- ===== Footer ===== --><footer class="bg-gray-800 text-gray-300 pt-16 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Kolom 1: Tentang Kami --><div>
-                    <h3 class="text-xl font-bold text-white mb-4">Gedung Seni dan Budaya Jayengrana Narmada</h3>
+                    <h3 class="text-xl font-bold text-white mb-4">Gedung Seni dan Budaya Jayengrana Narmada</h3>
                     <p class="mb-2">BIDANG PEMBINAAN KEBUDAYAAN
-                                    DINAS PENDIDIKAN DAN KEBUDAYAAN
-                                    KABUPATEN LOMBOK BARAT</p>
+                                 DINAS PENDIDIKAN DAN KEBUDAYAAN
+                                 KABUPATEN LOMBOK BARAT</p>
                     <p class="text-sm mb-2">
                         Alamat: Jl. Suranadi, Lembuak, Kec. Narmada, Kabupaten Lombok Barat, Nusa Tenggara Bar. 83371
                     </Sip>
@@ -605,16 +750,16 @@
                         <a href="#" class="text-gray-400 hover:text-white transition" aria-label="Instagram">
                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                                 <path fill-rule="evenodd" d="M12 2C8.74 2 8.333.014 7.053.072 5.775.132 4.905.333 4.14.63c-.784.306-1.457.718-2.123 1.385S.935 3.356.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.014 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.784.718 1.457 1.385 2.123s1.339.814 2.123 1.12c.765.297 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.014 4.947-.072c1.277-.06 2.148-.261 2.913-.558.784-.306 1.457-.718 2.123-1.385s.814-1.339 1.12-2.123c.297-.765.499-1.636.558-2.913C23.988 15.667 24 15.26 24 12s-.014-3.667-.072-4.947c-.06-1.277-.261-2.148-.558-2.913-.306-.784-.718-1.457-1.385-2.123S20.644.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.163c3.203 0 3.585.012 4.85.07 1.17.053 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.058 1.265.07 1.646.07 4.85s-.012 3.585-.07 4.85c-.053 1.17-.249 1.805-.413 2.227-.217.562-.477.96-.896 1.382-.42.419-.819.679-1.381.896-.422.164-1.057.36-2.227.413-1.265.058-1.646.07-4.85.07s-3.585-.012-4.85-.07c-1.17-.053-1.805-.249-2.227-.413-.562-.217-.96-.477-1.382-.896-.419-.42-.679-.819-.896-1.381-.164-.422-.36-1.057-.413-2.227-.058-1.265-.07-1.646-.07-4.85s.012-3.585.07-4.85c.053 1.17.249 1.805.413 2.227.217-.562.477.96.896 1.382.42-.419.819.679 1.381-.896.422-.164 1.057.36 2.227.413C8.415 2.175 8.797 2.163 12 2.163zm0 3.472a6.364 6.364 0 100 12.728 6.364 6.364 0 000-12.728zm0 10.162a3.799 3.799 0 110-7.598 3.799 3.799 0 010 7.598zm6.566-7.633a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z" clip-rule="evenodd" />
-                            </svg>
+                           </svg>
                         </a>
                         <a href="#" class="text-gray-400 hover:text-white transition" aria-label="Twitter">
                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                               <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
                            </svg>
                         </a>
                          <a href="#" class="text-gray-400 hover:text-white transition" aria-label="YouTube">
                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                               <path fill-rule="evenodd" d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.71 22 12 22 12s0 3.29-.418 4.814a2.506 2.506 0 01-1.768 1.768c-1.522.418-7.814.418-7.814.418s-6.292 0-7.814-.418a2.506 2.506 0 01-1.768-1.768C2.002 15.29 2 12 2 12s0-3.29.418-4.814a2.506 2.506 0 011.768-1.768C5.708 5.002 12 5.002 12 5.002s6.292 0 7.814.416zM9.546 15.582V8.418L15.818 12l-6.272 3.582z" clip-rule="evenodd" />
+                                <path fill-rule="evenodd" d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.71 22 12 22 12s0 3.29-.418 4.814a2.506 2.506 0 01-1.768 1.768c-1.522.418-7.814.418-7.814.418s-6.292 0-7.814-.418a2.506 2.506 0 01-1.768-1.768C2.002 15.29 2 12 2 12s0-3.29.418-4.814a2.506 2.506 0 011.768-1.768C5.708 5.002 12 5.002 12 5.002s6.292 0 7.814.416zM9.546 15.582V8.418L15.818 12l-6.272 3.582z" clip-rule="evenodd" />
                            </svg>
                         </a>
                     </div>
@@ -622,7 +767,7 @@
             </div>
             
             <!-- Garis Pemisah dan Copyright --><div class="mt-12 pt-8 border-t border-gray-700 text-center text-sm">
-                <p>&copy; 2025 Gedung Seni dan Budaya Jayengrana Narmada. Hak Cipta Dilindungi.</p>
+                <p>&copy; 2025 Gedung Seni dan Budaya Jayengrana Narmada. Hak Cipta Dilindungi.</p>
             </div>
         </div>
     </footer>
@@ -639,7 +784,17 @@
             // Dapatkan semua tautan yang memicu navigasi
             const pageLinks = document.querySelectorAll('.page-link');
 
+            // [PERUBAHAN] Mengganti logika video YouTube dengan video lokal
+            const videoPengaduan = document.getElementById('video-pengaduan-local');
+
             function showPage(targetId) { // targetId akan berupa hash, e.g., "#konten-utama"
+                
+                // [PERUBAHAN] Logika untuk menghentikan video lokal saat berpindah halaman
+                if (videoPengaduan) {
+                    videoPengaduan.pause();
+                    videoPengaduan.currentTime = 0; // Reset video ke awal
+                }
+
                 // Sembunyikan semua halaman
                 pages.forEach(page => {
                     page.classList.add('hidden');
@@ -653,6 +808,18 @@
                     // Jika halaman tidak ditemukan, tampilkan halaman utama
                     document.getElementById('konten-utama').classList.remove('hidden');
                 }
+
+                // [PERUBAHAN] Mulai video lokal secara otomatis jika halaman pengaduan dibuka
+                if (targetId === '#halaman-pengaduan' && videoPengaduan) {
+                    // Atribut 'autoplay' di tag video seharusnya sudah menangani ini,
+                    // tapi .play() memastikan jika ada masalah.
+                    // Browser modern mungkin butuh interaksi user, tapi 'muted' 'autoplay' biasanya diizinkan.
+                    videoPengaduan.play().catch(error => {
+                        // Menangani error jika autoplay diblokir
+                        console.log("Autoplay video diblokir oleh browser.");
+                    });
+                }
+                
                 // Selalu scroll ke atas saat berpindah halaman
                 window.scrollTo(0, 0);
             }
@@ -663,6 +830,12 @@
                     event.preventDefault(); // Mencegah perilaku default tautan anchor
                     const targetId = link.getAttribute('href'); // e.g., "#halaman-agenda-1"
                     showPage(targetId);
+
+                    // [PERUBAHAN] Tutup menu mobile setelah mengklik link
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
                 });
             });
 
@@ -698,10 +871,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
